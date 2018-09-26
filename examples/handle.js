@@ -31,7 +31,7 @@ ReactDOM.render(
   <div>
     <div style={wrapperStyle}>
       <p>Slider with custom handle</p>
-      <Slider min={0} max={20} defaultValue={3} handle={handle} />
+      <Slider min={1.e-8} max={1.e-7} defaultValue={2.e-8} step={1.e-8} handle={handle} />
     </div>
     <div style={wrapperStyle}>
       <p>Range with custom handle</p>
